@@ -22,7 +22,6 @@ while True:
     time.sleep(1)
     solenoid.value = True
     time.sleep(1)
-# Take pressure
-while True:
+    # Take pressure
     print((mpr.pressure,))
     time.sleep(1)
